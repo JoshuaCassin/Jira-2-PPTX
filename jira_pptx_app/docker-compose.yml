@@ -1,0 +1,18 @@
+version: '3'
+services:
+  web:
+    image: joshuacassin/jira2pptx:latest  # Use the image from Docker Hub
+    container_name: jira_pptx_app-web
+    networks:
+      - jira_pptx_network
+  nginx:
+    image: nginx:latest
+    container_name: jira_pptx_app-nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+    networks:
+      - jira_pptx_network
+networks:
+  jira_pptx_network:

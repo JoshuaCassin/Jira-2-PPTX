@@ -1,0 +1,246 @@
+Issue Key,SUMMARY,FixVersion,Parent,CE,EE
+EE-6537,Button to reload image up to date indicators,EE-2.20.0,,-,✓
+EE-6361,Introduce alpha version for 2.20,EE-2.20.0,,-,✓
+EE-6355,Hide secrets section of edge configuration in beta,EE-2.20.0,,-,✓
+EE-6267,Introduce 2.20 Beta,EE-2.20.0,,-,✓
+EE-6080,Remove the feature flag for transactions,EE-2.20.0,,✓,✓
+EE-6078,Simplify the code using Go 1.21 features,EE-2.20.0,,✓,✓
+EE-6042,Database optimizations,EE-2.20.0,,✓,✓
+EE-5976,bump chisel version to 1.90,EE-2.20.0,,✓,✓
+EE-5254,Remove lightbulb panel for Docker GPU support changes,EE-2.20.0,,✓,✓
+EE-6218,Improve code sharing between CE and EE (wave 1),EE-2.20.0,,-,✓
+EE-6477,Stream activity and auth logs to SIEM,EE-2.20.0,,-,✓
+EE-5975,Improvements for scheduler date & time,EE-2.20.0,,-,✓
+EE-6140,Mitigate nefarious actors creating API tokens in other users' Portainer UI sessions,EE-2.20.0,,✓,✓
+EE-5866,[Pen Test][Low] CSV Injection in Authentication Logs,EE-2.20.0,,✓,✓
+EE-5861,[Pen Test][Low] Broken Access Control - Add Shared Credentials page,EE-2.20.0,,-,✓
+EE-6060,Nomad removal from Portainer,EE-2.20.0,,-,✓
+EE-4692,Migrate Kubernetes nodes table to React,EE-2.20.0,,✓,✓
+EE-5028,List and manage Kubernetes Cluster Roles,EE-2.20.0,,-,✓
+EE-4808,List and manage Kubernetes Roles,EE-2.20.0,,-,✓
+EE-2633,List and manage Kubernetes Service Accounts,EE-2.20.0,,-,✓
+EE-5947,Introduce option to enforce admin-only view/edit of Kube Secret contents in the UI,EE-2.20.0,,-,✓
+EE-6170,Introduce means to turn off Kubernetes Stacks,EE-2.20.0,,✓,✓
+EE-6168,Rename Kubernetes Advanced deployment screen as Create from manifest,EE-2.20.0,,✓,✓
+EE-5999,Move Kubernetes Helm option to Advanced deployment screen,EE-2.20.0,,✓,✓
+EE-5666,Adjust Portainer menu structure,EE-2.20.0,,✓,✓
+EE-5051,Kubernetes Advanced deployment screen Stack field is incorrectly labelled Name,EE-2.20.0,,✓,✓
+EE-6465,Vanilla Kubernetes - test 1.29 support,EE-2.20.0,,✓,✓
+EE-6223,Civo Kubernetes provision KaaS - test 1.27 support for Talos Linux (talos-v1.5.0),EE-2.20.0,,-,✓
+EE-6222,Linode Kubernetes Engine (LKE) provision KaaS - test 1.27 support,EE-2.20.0,,-,✓
+EE-6221,Azure Kubernetes Service (AKS) provision KaaS - test 1.28 support,EE-2.20.0,,-,✓
+EE-6220,Digital Ocean Kubernetes (DOKS) provision KaaS - test 1.28 support,EE-2.20.0,,-,✓
+EE-6219,"Amazon EKS provision KaaS - add + test 1.28 support, including updating eksctl",EE-2.20.0,,-,✓
+EE-6089,MicroK8s create cluster - test 1.28 support,EE-2.20.0,,-,✓
+EE-6059,Edge App Template List,EE-2.20.0,,-,✓
+EE-5573,Introduce Edge App Templates and Custom Templates,EE-2.20.0,,-,✓
+EE-6176,Introduce Edge Admin Role to Edge,EE-2.20.0,,-,✓
+EE-6293,Introduce front-end caching for Kubernetes environments to cater for large-scale or high-latency scenarios,EE-2.20.0,,✓,✓
+EE-5901,[Spike] Investigate use of Kubernetes watch functionality to improve performance,EE-2.20.0,,✓,✓
+EE-5734,Migrate Kubernetes Application Details Angular view to React - beyond Summary and Details,EE-2.20.0,,✓,✓
+EE-5524,Migrate kubernetes/cluster/configure (Cluster Setup) Angular view to React,EE-2.20.0,,✓,✓
+EE-2309,Migrate kubernetes/applications/create and edit Angular views to React,EE-2.20.0,,✓,✓
+EE-2226,Migrate (Namespace) kubernetes/resource-pools/create Angular view to React,EE-2.20.0,,✓,✓
+EE-5731,MicroK8s - Allow enabling/disabling of mayastor (core) addon (that has prerequisites),EE-2.20.0,,-,✓
+EE-5730,MicroK8s - Allow enabling/disabling of minio (core) addon (that has prerequisites),EE-2.20.0,,-,✓
+EE-6228,Separation of relative path and gitops edge configuration,EE-2.20.0,,-,✓
+EE-6181,Edge configuration match by edge group,EE-2.20.0,,-,✓
+EE-6163,"Reorganized ""Relative Path"" and ""GitOps Edge Configuration"" into a single section for Edge Stack",EE-2.20.0,,-,✓
+EE-5962,GitOps Edge configuration based on edge group with git,EE-2.20.0,,-,✓
+EE-5925,Capture product usage data at license check-in,EE-2.20.0,,-,✓
+EE-2834,Allow stopping of a Kube application by scaling it to 0,EE-2.20.0,,✓,✓
+EE-6459,2023-12-13 Portainer CE & EE CVEs,EE-2.20.0,,✓,✓
+EE-5864,[Pen Test][Low] Sensitive Information in Local Storage,EE-2.20.0,,✓,✓
+EE-5859,[Pen Test][Low] Broken Access Control - Environment Group Access,EE-2.20.0,,✓,✓
+EE-5858,[Pen Test][Low] Broken Access Control - Global Admin - Read User Tokens,EE-2.20.0,,✓,✓
+EE-5799,2023-07-26 Portainer Agent,EE-2.20.0,,✓,✓
+EE-5798,2023-07-26 Portainer CE & EE,EE-2.20.0,,✓,✓
+EE-6106,[Develop] container command and entrypoint aren't persisted,EE-2.20.0,,✓,✓
+EE-6554,[Develop] Persisted folders react migration issues,EE-2.20.0,,✓,✓
+EE-6552,[Develop] Errors on Placement tab for daemonsets,EE-2.20.0,,✓,✓
+EE-6548,Swagger API documentation - further errors,EE-2.20.0,,✓,✓
+EE-6547,[Develop] Can't see error details when updating malformed Kubernetes resource YAML,EE-2.20.0,,-,✓
+EE-6544,[Develop] Update application button enabled when no changes have been made,EE-2.20.0,,✓,✓
+EE-6527,[Develop] Enabling/Disabling of autoscaling toggle doesn't take affect on first load of Create/Edit application screen,EE-2.20.0,,✓,✓
+EE-6523,[Develop] 'Unable to patch service' error after editing a statefulset,EE-2.20.0,,-,✓
+EE-6519,[Develop] Can't update cluster settings on changing storage class access policy,EE-2.20.0,,✓,✓
+EE-6517,[Develop] Text input issue on certain text fields,EE-2.20.0,,✓,✓
+EE-6516,[Develop] Kubernetes Cluster Setup screen RBAC not enabled warning is missing wording,EE-2.20.0,,✓,✓
+EE-6515,[Develop] K8s Create/Edit application summary issues,EE-2.20.0,,✓,✓
+EE-6508,[Develop] Kube Add Namespace should error with 'Not enough resources available' if over-commit is off and there aren't enough resources (resource quota error),EE-2.20.0,,✓,✓
+EE-6507,[Develop] Docker Network icon should match updated menu icon,EE-2.20.0,,✓,✓
+EE-6480,"""Unable to determine which association to use to convert form"" when editing an external pod",EE-2.20.0,,✓,✓
+EE-6479,[Develop] K8s Application details screen shows incorrect environment variable value,EE-2.20.0,,✓,✓
+EE-6478,[Develop] Edits to stack field on Kube applications don't immediately show after updating,EE-2.20.0,,-,✓
+EE-6458,CE GitLab template needs updating and has an invalid documentation link,CE-2.20.0,,✓,-
+EE-6443,[2.19Regression] K8s application deployment does not remember saved Git credentials,EE-2.20.0,,-,✓
+EE-6439,"[NOT2.19Regression] ""Unable to download backup"" error when portainer_data is stored on network volume",EE-2.20.0,,✓,✓
+EE-6428,"[MustHave][2.19Regression][REVIEWED] Swagger API documentation - incorrect POST endpoints for creation of custom templates via file, repository or string",EE-2.20.0,,✓,✓
+EE-6426,[2.19Regression] Adding a persisted folder on Create application screen causes focus to jump up to first empty field,EE-2.20.0,,✓,✓
+EE-6423,[2.19Regression][REVIEWED] Kube Secrets and ConfigMaps table no longer shows 'unused' tag for Pod deployments,EE-2.20.0,,✓,✓
+EE-6403,"[2.19Regression][REVIEWED] When editing a pod created via manifest, the incorrect screen shows along with error toasts",EE-2.20.0,,✓,✓
+EE-6392,[NOT2.19Regression][CE only][REVIEWED] Kube Edit Application screen is blank when editing external application,CE-2.20.0,,✓,-
+EE-6389,[Develop] Update button doesn't enable after editing an external Kube application,EE-2.20.0,,-,✓
+EE-6381,[Develop] Application details UI switches to show app as 'external' after navigating away from and back to Portainer,EE-2.20.0,,✓,✓
+EE-6379,[Develop] Invalid Stack Name error when editing a Kube application,CE-2.20.0,,✓,-
+EE-6376,[Develop] Application create/edit form error ,CE-2.20.0,,✓,-
+EE-6369,"[NOT2.19Regression][REVIEWED] When creating a Kube Namespace after disabling over-commit, ""Value must be between 0 and -x."" warning incorrectly shows ",EE-2.20.0,,-,✓
+EE-6367,Rollback is no longer finding backed up db,EE-2.20.0,,✓,✓
+EE-6366,[Develop] Console errors when loading namespace details as a non-admin user,EE-2.20.0,,-,✓
+EE-6362,[NotRegression][REVIEWED] Log viewer not displaying lines that are only numbers,EE-2.20.0,,✓,✓
+EE-6358,[Develop] Create Kube Namespace screen issues,EE-2.20.0,,✓,✓
+EE-6348,[2.19Regression][REVIEWED] Back up Portainer - settings section header typo,EE-2.20.0,,✓,✓
+EE-6347,[NOTRegression][REVIEWED] Backup settings revert to default view after saving as S3,EE-2.20.0,,✓,✓
+EE-6346,[Regression][REVIEWED] Commit link for stack incorrectly keeps .git as extension,EE-2.20.0,,✓,✓
+EE-6310,"[Develop] Helm should not present ""Use namespace specified from manifest"" option",EE-2.20.0,,✓,✓
+EE-6303,[Develop] License check-in issues,EE-2.20.0,,-,✓
+EE-6299,[Develop] Helm Details not showing,EE-2.20.0,,✓,✓
+EE-6292,Deploying an edge stack to a Kubernetes async device fails,EE-2.20.0,,-,✓
+EE-6288,[Develop] Adding a license to Portainer doesn't trigger license check-in,EE-2.20.0,,-,✓
+EE-6282,[NOTRegression][REVIEWED] Kube Secrets and ConfigMaps referenced via envFrom: (instead of valueFrom:) don't show as related resources in Application screen,EE-2.20.0,,✓,✓
+EE-6280,[Develop] Kubernetes - Create from Manifest screen Deploy button enabled as there are no Mandatory fields,EE-2.20.0,,✓,✓
+EE-6279,[Develop] Kubernetes Unable to deploy Custom Template directly from List,EE-2.20.0,,✓,✓
+EE-6272,Missing word in MicroK8s version retrieval error message,EE-2.20.0,,-,✓
+EE-6229,Disabled input cursor should show on hover of disabled for input toggles,EE-2.20.0,,✓,✓
+EE-6216,[Develop] Cannot select system namespaces in Kubernetes Application List's namespace selector,EE-2.20.0,,✓,✓
+EE-6200,Swagger API documentation - Stack image status endpoint is incorrect,EE-2.20.0,,-,✓
+EE-6199,Swagger API documentation - POST /users/{id}/tokens example response has incorrect digest format,EE-2.20.0,,✓,✓
+EE-6185,Swagger API documentation - no image_status endpoints examples or status explanation,EE-2.20.0,,-,✓
+EE-6146,"[x] Swagger API documentation - cloud, etc. issues",EE-2.20.0,,-,✓
+EE-6125,[Develop] Kubernetes Node data table doesn't load for standard CE users,CE-2.20.0,,✓,-
+EE-6120,'CPU used' shows very high value on Kubernetes Cluster details screen,EE-2.20.0,,✓,✓
+EE-6119,[x] Swagger API documentation - undocumented call to get schedule status and inactive API call,EE-2.20.0,,-,✓
+EE-5977,[NOT2.19Regression][REVIEWED] Environment access 'Create access' button enabled incorrectly,EE-2.20.0,,✓,✓
+EE-5933,[NOT2.19Regression][REVIEWED] Kube Edit Application - Multiple issues with resource quota,EE-2.20.0,,✓,✓
+EE-5879,[x] UI - Web editor - Tiny font in the search/replace feature,EE-2.20.0,,✓,✓
+EE-5768,[x] Kubernetes - cleaning up ECR or other registry entry in Portainer does not remove image pull secrets in namespaces,EE-2.20.0,,✓,✓
+EE-5723,[x] MicroK8s - Portainer server addon shows as enabled when it is agent that's installed,EE-2.20.0,,-,✓
+EE-5718,[x] eksctl_exec.go:Run() has a data-race,EE-2.20.0,,-,✓
+EE-5686,[x] Kubernetes application search not working when app exposed via ingress,EE-2.20.0,,✓,✓
+EE-5581,"[x] Kubernetes Volume Details show the last Access Policy of the Storage Class bound to the PVC, not the PVC access policy itself",EE-2.20.0,,✓,✓
+EE-5580,"[x] [5NF] When deploying Kube Daemonset with shared storage, the PVC needs RWX access mode",EE-2.20.0,,✓,✓
+EE-5577,[NOT2.19Regression][REVIEWED] Unable to successfully update the IP address of environments,EE-2.20.0,,✓,✓
+EE-5427,[x] Issue giving a user access to an environment group containing a Kubernetes environment that's down,EE-2.20.0,,✓,✓
+EE-5371,"[x] Login page of publicly exposed Portainer instance should not show ""Deceptive site ahead""",EE-2.20.0,,✓,✓
+EE-5366,[x] Improve text layout and hierarchy,EE-2.20.0,,✓,✓
+EE-5065,Kube Add/Edit Application - Console error when updating resource sliders (quota-related),EE-2.20.0,,✓,✓
+EE-5061,[NOT2.19Regression][REVIEWED] Kube Edit Namespace - Resource quota error,EE-2.20.0,,-,✓
+EE-5055,Inconsistencies with image up to date indicators between lists and details pages,EE-2.20.0,,-,✓
+EE-4899,No success notification when adding user to a team,EE-2.20.0,,✓,✓
+EE-4775,Kubernetes Ingress list screen does not handle system resources correctly,EE-2.20.0,,✓,✓
+EE-4602,UI - Toggle restyling,EE-2.20.0,,✓,✓
+EE-4408,Incorrect error message can show for Kubernetes secret,EE-2.20.0,,✓,✓
+EE-4190,"UI - High contrast mode field borders, box selector text and expiry banner hard to make out",EE-2.20.0,,✓,✓
+EE-4107,UI - Modals and tooltips blend into background in high contrast mode,EE-2.20.0,,✓,✓
+EE-6550,[Develop] Default mustache variable values are being prepopulated on deploy custom template screen,EE-2.20.0,,-,✓
+EE-6514,[Develop] TLS connections with Agents are broken,EE-2.20.0,,✓,✓
+EE-6510,Swagger API documentation - /stacks/{id}/images_status has an extraneous parameter detailed,EE-2.20.0,,-,✓
+EE-6502,Agent: data race in crypto/ecdsa.go,EE-2.20.0,,✓,✓
+EE-6492,Edge Stacks with GitOps stop polling after restarting the server,EE-2.20.0,,-,✓
+EE-6481,Nil pointer dereference in chisel.pingAgent(),EE-2.20.0,,✓,✓
+EE-6472,[Develop] Edge stack screen fails to load after creating a stack with a disassociated environment,EE-2.20.0,,✓,✓
+EE-6471,Swagger API documentation -  Some fields are shown with the incorrect case,EE-2.20.0,,✓,✓
+EE-6467,Swagger API documentation - kaas version and system version APIs have same swagger id,EE-2.20.0,,-,✓
+EE-6461,[Develop] Cannot Add Host File Entries in App Template + Console Errors ,EE-2.20.0,,✓,✓
+EE-6456,[Develop]  retag image fails because of csrf,EE-2.20.0,,✓,✓
+EE-6446,Incorrect commit link when using Bitbucket,EE-2.20.0,,-,✓
+EE-6431,[2.19Regression][REVIEWED]  Edge stack update missing confirmation modal,EE-2.20.0,,-,✓
+EE-6430,[NotRegression][REVIEWED] Edge stack re-pull image not working,EE-2.20.0,,-,✓
+EE-6429,[2.19Regression][REVIEWED] Edge stack - repository method missing some registry options after deployment,EE-2.20.0,,-,✓
+EE-6414,[NOTRegression]  [REVIEWED] Authentication error for unpacker when using webhook,EE-2.20.0,,-,✓
+EE-6411,[MustHave] [Regression] [REVIEWED]Cursor shifts to end when editing env vars,EE-2.20.0,,✓,✓
+EE-6410,[2.19Regression] [REVIEWED] Cannot sort images by tags,EE-2.20.0,,✓,✓
+EE-6401,[Develop] Swarm NodeName info in listing image is lost,EE-2.20.0,,✓,✓
+EE-6399,stackutils.RemoveStackVersionFolders() does not supply the error to the callback,EE-2.20.0,,✓,✓
+EE-6398,[Develop] Normal and Edge templates inconsistent naming behaviour,EE-2.20.0,,✓,✓
+EE-6397,[Develop] Normal templates filter affects edge templates,EE-2.20.0,,✓,✓
+EE-6393,[Develop] Missing tool tip for the docker templates,EE-2.20.0,,✓,✓
+EE-6391,[Develop] Templates issues,EE-2.20.0,,✓,✓
+EE-6390,[Develop] Edge template does not clear selection and mustache variables,EE-2.20.0,,✓,✓
+EE-6382,[Develop] Users are not prompted to change their password,EE-2.20.0,,✓,✓
+EE-6380,[Regression] [REVIEWED] Cannot edit custom templates before deployment in Stack deployment screen,EE-2.20.0,,✓,✓
+EE-6378,"[Regression] [REVIEWED] Files in mounted relative path volumes with GitOps don't update when clicking ""Pull and redeploy"" - Swarm only",EE-2.20.0,,-,✓
+EE-6377,[MustHave] [NOTRegression] [Core Logic] [REVIEWED] GitOps auto updates can pile up when the deployment time is longer than the polling interval,EE-2.20.0,,✓,✓
+EE-6374,[Develop] Swarm - Image List table issues,EE-2.20.0,,✓,✓
+EE-6370,[Develop] App template 'Type' dropdown disappears after selecting from it,EE-2.20.0,,✓,✓
+EE-6368,[Develop] Unauthorized toast error when Logging out of Portainer,EE-2.20.0,,✓,✓
+EE-6363,[Develop] Default template URL is incorrect,EE-2.20.0,,✓,✓
+EE-6357,[Develop] Edge custom template repo issues,EE-2.20.0,,✓,✓
+EE-6332,[Develop] Async cannot create snapshot,EE-2.20.0,,-,✓
+EE-6328,[Develop] Edge custom template issue,EE-2.20.0,,✓,✓
+EE-6325,[NotRegression] [REVIEWED] Triggering a non-admin container's webhook changes permission to admin-only,EE-2.20.0,,-,✓
+EE-6323,[Develop] Volumes browse button spacing issue,EE-2.20.0,,✓,✓
+EE-6318,[NotRegression] [Community Contribution][REVIEWED] Incorrect Documentation link for Swarm agent setup,EE-2.20.0,,✓,✓
+EE-6317,[Develop] Edge stacks deadline exceeded failure,EE-2.20.0,,✓,✓
+EE-6315,[Develop] Container page - Can give non environment members access,EE-2.20.0,,✓,✓
+EE-6314,[Develop] Container Create page UI toggles misalignment,EE-2.20.0,,✓,✓
+EE-6313,[Develop] Unable to create container with webhook,EE-2.20.0,,-,✓
+EE-6306,[Develop] Runtime and Resources issues,EE-2.20.0,,✓,✓
+EE-6304,[Develop] Container advanced settings - domain name - info does not get processed,EE-2.20.0,,✓,✓
+EE-6287,[Develop] Cannot deploy container from dockerhub registry,EE-2.20.0,,✓,✓
+EE-6278,[Develop] Missing information in portainer build info modal,CE-2.20.0,,✓,-
+EE-6277,[Develop] edge stack custom columns menu is surrounded by parentheses,EE-2.20.0,,✓,✓
+EE-6275,[Develop] Unable to update swarm service,CE-2.20.0,,✓,-
+EE-6274,[Develop] Agent environments cannot view volumes page,EE-2.20.0,,✓,✓
+EE-6273,[Develop] Unable to view container logs,CE-2.20.0,,✓,-
+EE-6266,[REVIEWED] UI Bug - Incorrect display of repository ref,EE-2.20.0,,-,✓
+EE-6264,Homepage container count includes healthy/unhealthy containers twice,EE-2.20.0,,✓,✓
+EE-6263,[Develop] Edge compute settings issues,EE-2.20.0,,✓,✓
+EE-6260,[Develop] issues related to omitting empty fields from db,EE-2.20.0,,✓,✓
+EE-6259,Toggle switches in waiting room do not sort waiting devices list,EE-2.20.0,,-,✓
+EE-6258,"[Develop] ""Disable container capabilities for non-administrators"" option does not work correctly",EE-2.20.0,,✓,✓
+EE-6256,Docker Images List breaks when an image has no tags,EE-2.20.0,,✓,✓
+EE-6251,[MustHave] [REVIEWED] [Regression] Unable to update a Git-based Edge stack that was created by another user,EE-2.20.0,,✓,✓
+EE-6227,version.go:StoreIsUpdating() is broken in CE,CE-2.20.0,,✓,-
+EE-6226,[Develop] Docker Volumes screen has Add volume button incorrectly labelled Add secret,EE-2.20.0,,✓,✓
+EE-6225,[Develop] Console errors removing text from resource slider text field,EE-2.20.0,,✓,✓
+EE-6215,Misleading message when deploying Portainer on Swarm,EE-2.20.0,,✓,✓
+EE-6204,Label GPU functionality as NVIDIA only,EE-2.20.0,,✓,✓
+EE-6196,Waiting room devices not automatically associated when admin disables waiting room feature,EE-2.20.0,,-,✓
+EE-6178,[Develop] Unable to edit swarm services ,EE-2.20.0,,✓,✓
+EE-6172,[Develop] Container logs page inaccessible,EE-2.20.0,,✓,✓
+EE-6167,[Regression] [REVIEWED] Retry deployment toggle does not persist when editing edge stack,EE-2.20.0,,✓,✓
+EE-6164,[Develop] Unable to view swarm secret details,EE-2.20.0,,✓,✓
+EE-6160,[Develop] Unable to create a container,EE-2.20.0,,✓,✓
+EE-6149,[Develop] Show orphaned stack option is missing,CE-2.20.0,,✓,-
+EE-6139,[Regression] [REVIEWED] Cannot force HTTPS in 2.19.0 as Save SSL settings button is greyed out,EE-2.20.0,,✓,✓
+EE-6131,Edge configuration counting issue,EE-2.20.0,,-,✓
+EE-6118,[Develop] Unable to edit Stacks/Applications,EE-2.20.0,,✓,✓
+EE-6117,"Change ""Upgrade licenses"" button to ""Buy more nodes""",EE-2.20.0,,-,✓
+EE-6093,[Develop] Stacks page shows empty list,EE-2.20.0,,✓,✓
+EE-6092,Agent: aggregateStatus() has duplicated code,EE-2.20.0,,✓,✓
+EE-6088,GitLab fails to load Registry List correctly when a registry encounters an error,EE-2.20.0,,✓,✓
+EE-6081,[Develop] Portainer settings - misaligned poll frequency selector,EE-2.20.0,,✓,✓
+EE-6020,[x] UI - Edge Groups pages icon style is incorrect,EE-2.20.0,,-,✓
+EE-6010,[x] Auto onboarding - missing placeholder in the Edge id generator input,EE-2.20.0,,-,✓
+EE-6003,[x] Waiting room features are still visible when disabled in settings,EE-2.20.0,,-,✓
+EE-5981,stack config file error when deploying stack with PORT env var,EE-2.20.0,,-,✓
+EE-5965,[x] Searching edge groups in waiting room returns no results ,EE-2.20.0,,-,✓
+EE-5964,[x] non trusted envs are counted for static edge groups,EE-2.20.0,,-,✓
+EE-5960,[x] Missing relative path info when editing stack or edge stack,EE-2.20.0,,-,✓
+EE-5923,[Regression][REVIEWED] Unable to clear logs for edge jobs,CE-2.20.0,,✓,-
+EE-5855,[Regression] [REVIEWED] Save settings button disabled until Git password/token is re-entered when changing Advanced Options for a Git stack,EE-2.20.0,,✓,✓
+EE-5784,[NOTRegression][REVIEWED] Error raised when trying to update an orphaned stack,EE-2.20.0,,-,✓
+EE-5773,[x] Edge Agent: Docker snapshots should use timeouts,EE-2.20.0,,✓,✓
+EE-5766,[NotRegression][REVIEWED] Sorting stacks by Updated instead sorts by Created,EE-2.20.0,,✓,✓
+EE-5765,[x] In-app CE to BE upgrade with 3NF key on versions pre 2.18.4 fails,CE-2.20.0,,✓,-
+EE-5760,[x] Container exit codes in status - containers table,EE-2.20.0,,✓,✓
+EE-5752,Linter rules issue with autofocus,EE-2.19.2,,✓,✓
+EE-5745,[x] Edge Agent resets its endpointId when it can't reach Portainer server,EE-2.20.0,,✓,✓
+EE-5664,[MustHave] [NOTRegression][REVIEWED] Client secret in OAuth blank when a secret is set,EE-2.20.0,,✓,✓
+EE-5649,"[x] when edge stack file is missing, edit edge stack view will fail to open",EE-2.20.0,,✓,✓
+EE-5642,[x] RemoveStackCommand is calling the wrong function,EE-2.20.0,,-,✓
+EE-5575,[x] Add dropdown to hide environment variables in stack UI,EE-2.20.0,,✓,✓
+EE-5531,Dynamic edge groups will create a stack even if there is no environment,EE-2.20.0,,✓,✓
+EE-5512,[x] Re-introduce coloured logs from the Portainer binary and improve readability,EE-2.20.0,,✓,✓
+EE-5450,[x] API for system/version to display CE and EE,EE-2.20.0,,✓,✓
+EE-5436,[x] Missing information on registry tag view,EE-2.20.0,,-,✓
+EE-5396,[x] Hiding a container will label a container image as Unused,EE-2.20.0,,✓,✓
+EE-5370,[x] Console error when resizing browser,EE-2.20.0,,✓,✓
+EE-5097,Container Logs - wrap line toggled on is mangling logs ,EE-2.20.0,,-,✓
+EE-5037,"""Image not found on registry"" error when upgrading from CE to BE",CE-2.20.0,,✓,-
+EE-4880,Separate Tunnel Address and API Server URL from Edge Compute Toggle,EE-2.20.0,,-,✓
+EE-4844,"On deleting a Docker Swarm agent stack, logs flood with '[err: Error: No such container: xxx]'",EE-2.20.0,,-,✓
+EE-4797,Swarm Stacks fail to start after having been stopped with private image,EE-2.20.0,,-,✓
+EE-4337,Inconsistent data table selection behaviour,EE-2.20.0,,✓,✓
+EE-3841,Incorrect display when adding environment in groups,EE-2.20.0,,✓,✓

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jira to PPTX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        form {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h1 {
+            font-size: 2em;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 15px; 
+            margin-bottom: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        label {
+            font-weight: bold;
+            margin-right: 20px;
+            white-space: nowrap;
+            width: 20%;
+        }
+        input, select, button, textarea {
+            padding: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+        input[type="text"], input[type="email"], input[type="url"], select, textarea {
+            width: 75%;
+        }
+        input[type="number"] {
+            width: 60px;
+        }
+        textarea {
+            height: 80px;
+        }
+        input[type="file"] {
+            width: auto;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-top: 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .form-group.double {
+            justify-content: space-between;
+        }
+        .form-group.double label,
+        .form-group.double input,
+        .form-group.double select {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jira to PPTX</h1>
+    <form action="/generate_pptx" method="post" enctype="multipart/form-data">
+        <h2>Presets</h2>
+        <button type="button" id="downloadButton">Save Form</button>
+        <button type="button" id="uploadButton">Load Form</button>
+        <input type="file" id="fileInput" style="display: none;">
+        
+
+        <h2>Authentication</h2>
+        <div class="form-group">
+            <label for="jira_server_url">Jira Server URL:</label>
+            <input type="url" id="jira_server_url" name="jira_server_url">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="api_key">API Key:</label>
+            <input type="text" id="api_key" name="api_key" required>
+        </div>
+        <h2>Search</h2>
+        <div class="form-group">
+            <label for="jql_query">JQL Query:</label>
+            <textarea id="jql_query" name="jql_query" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="fields_to_include">Fields to include:</label>
+            <input type="text" id="fields_to_include" name="fields_to_include" required>
+        </div>
+        <div class="form-group double">
+            <label for="sort_field">Field to sort by:</label>
+            <input type="text" id="sort_field" name="sort_field" required>
+            <label for="sort_order">Sort Order:</label>
+            <select id="sort_order" name="sort_order">
+                <option value="asc">ASC</option>
+                <option value="desc">DESC</option>
+            </select>
+        </div>
+        <h2>PPT settings</h2>
+        <div class="form-group">
+            <label for="fields_to_display">Fields to display:</label>
+            <input type="text" id="fields_to_display" name="fields_to_display" required>
+        </div>
+        <div class="form-group">
+            <label for="fix_version_ce">Fix Version CE:</label>
+            <input type="text" id="fix_version_ce" name="fix_version_ce" required>
+        </div>
+        <div class="form-group">
+            <label for="fix_version_ee">Fix Version EE:</label>
+            <input type="text" id="fix_version_ee" name="fix_version_ee" required>
+        </div>
+        <div class="form-group">
+            <label for="rows_per_slide">Rows Per slide:</label>
+            <input type="number" id="rows_per_slide" name="rows_per_slide" value="10" required>
+        </div>
+        <h2>PPTX template</h2>
+        <div class="form-group">
+            <label for="pptx_template">Upload PPTX Template:</label>
+            <input type="file" id="pptx_template" name="pptx_template" required>
+        </div>
+        <button type="submit">Generate PPTX</button>
+    </form>
+    <script src="{{ url_for('static', filename='saveform.js') }}"></script>
+</body>
+</html>

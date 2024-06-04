@@ -1,0 +1,15 @@
+jira_pptx_app/
+│
+├── templates/
+│   └── index.html   # The main HTML form
+│
+├── static/
+│   └── ...          # Any static files (CSS, JS, images, etc.) if needed
+│
+├── outputs/
+│   └── your_pptx_filename.pptx  # The generated PPTX file will be saved here
+│
+├── app.py          # Main Flask app (contains routes, etc.)
+├── jira_api.py     # Contains functions related to connecting and querying JIRA API
+├── csv_utils.py    # Contains functions related to generating and processing CSV
+└── pptx_utils.py   # Contains functions related to generating PPTX from CSV

@@ -1,0 +1,2 @@
+[console_scripts]
+opc = opcdiag.cli:main
